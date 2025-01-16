@@ -251,7 +251,7 @@ def handle_bgmi(message):
         else:
             response = "Usage :- /attack1 <target> <port> <time>\nBy SUNIL"  # Updated command syntax
     else:
-        response = "You Are Not User's To Authorized To Use This Command.\nBy STORM BOT DM TO GET ACCESS @SUNIL90"
+        response = "You Are Not User's To Authorized To Use This Command.\nBy SUNIL BOT DM TO GET ACCESS @Sunil_2640"
 
     bot.reply_to(message, response)
 
@@ -288,7 +288,7 @@ def show_help(message):
 
  To See Admin Commands:
  /admincmd : Shows All Admin Commands.
- By STORM BOT
+ By SUNIL BOT
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -315,7 +315,7 @@ def welcome_rules(message):
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot. 
 3. We Daily Checks The Logs So Follow these rules to avoid Ban!!
-By STORM BOT'''
+By SUNIL BOT'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['plan'])
@@ -335,7 +335,7 @@ Day--------> 250 Rs
 Week-------> 900 Rs
 Month------> 1600 Rs
 LifeTimes--> 2000 Rs
-By STORM BOT
+By SUNIL BOT
 '''
     bot.reply_to(message, response)
 
